@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.0.final using JasperReports Library version 6.20.0-2bc7ab61c56f459e8176eb05c7705e145cd400ad  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="relatorio" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="2072ab68-e626-4250-9aff-033c0a453fbc">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Base de dados"/>
+	<queryString language="SQL">
+		<![CDATA[Select * from credito]]>
+	</queryString>
+	<field name="id_credito" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="id_credito"/>
+		<property name="com.jaspersoft.studio.field.label" value="id_credito"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="credito"/>
+	</field>
+	<field name="id_cliente" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.name" value="id_cliente"/>
+		<property name="com.jaspersoft.studio.field.label" value="id_cliente"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="credito"/>
+	</field>
+	<field name="montante_solicitado" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="montante_solicitado"/>
+		<property name="com.jaspersoft.studio.field.label" value="montante_solicitado"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="credito"/>
+	</field>
+	<field name="montante_sugerido" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="montante_sugerido"/>
+		<property name="com.jaspersoft.studio.field.label" value="montante_sugerido"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="credito"/>
+	</field>
+	<field name="prestacao_solicitada" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="prestacao_solicitada"/>
+		<property name="com.jaspersoft.studio.field.label" value="prestacao_solicitada"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="credito"/>
+	</field>
+	<field name="prestacao_sugerida" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="prestacao_sugerida"/>
+		<property name="com.jaspersoft.studio.field.label" value="prestacao_sugerida"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="credito"/>
+	</field>
+	<field name="frequencia_sugerida" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="frequencia_sugerida"/>
+		<property name="com.jaspersoft.studio.field.label" value="frequencia_sugerida"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="credito"/>
+	</field>
+	<field name="frequencia_solicitada" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="frequencia_solicitada"/>
+		<property name="com.jaspersoft.studio.field.label" value="frequencia_solicitada"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="credito"/>
+	</field>
+	<field name="prazo_de_pagamento" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="prazo_de_pagamento"/>
+		<property name="com.jaspersoft.studio.field.label" value="prazo_de_pagamento"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="credito"/>
+	</field>
+	<field name="grau_de_financiamento" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="grau_de_financiamento"/>
+		<property name="com.jaspersoft.studio.field.label" value="grau_de_financiamento"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="credito"/>
+	</field>
+	<field name="servicos_da_divida" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="servicos_da_divida"/>
+		<property name="com.jaspersoft.studio.field.label" value="servicos_da_divida"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="credito"/>
+	</field>
+	<field name="data_do_pagamento" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="data_do_pagamento"/>
+		<property name="com.jaspersoft.studio.field.label" value="data_do_pagamento"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="credito"/>
+	</field>
+	<field name="decisao" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="decisao"/>
+		<property name="com.jaspersoft.studio.field.label" value="decisao"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="credito"/>
+	</field>
+	<field name="tipo_de_credito" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="tipo_de_credito"/>
+		<property name="com.jaspersoft.studio.field.label" value="tipo_de_credito"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="credito"/>
+	</field>
+	<field name="bens_tangiveis" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="bens_tangiveis"/>
+		<property name="com.jaspersoft.studio.field.label" value="bens_tangiveis"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="credito"/>
+	</field>
+	<field name="bens_integiveis" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="bens_integiveis"/>
+		<property name="com.jaspersoft.studio.field.label" value="bens_integiveis"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="credito"/>
+	</field>
+	<field name="proposta_destino" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="proposta_destino"/>
+		<property name="com.jaspersoft.studio.field.label" value="proposta_destino"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="credito"/>
+	</field>
+	<field name="prazo_frequencia" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="prazo_frequencia"/>
+		<property name="com.jaspersoft.studio.field.label" value="prazo_frequencia"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="credito"/>
+	</field>
+	<field name="prestacao" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="prestacao"/>
+		<property name="com.jaspersoft.studio.field.label" value="prestacao"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="credito"/>
+	</field>
+	<field name="montante_aprovado" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="montante_aprovado"/>
+		<property name="com.jaspersoft.studio.field.label" value="montante_aprovado"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="credito"/>
+	</field>
+	<field name="taxa_de_juro" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="taxa_de_juro"/>
+		<property name="com.jaspersoft.studio.field.label" value="taxa_de_juro"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="credito"/>
+	</field>
+	<field name="valor_total" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="valor_total"/>
+		<property name="com.jaspersoft.studio.field.label" value="valor_total"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="credito"/>
+	</field>
+	<field name="Data" class="java.sql.Date">
+		<property name="com.jaspersoft.studio.field.name" value="Data"/>
+		<property name="com.jaspersoft.studio.field.label" value="Data"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="credito"/>
+	</field>
+	<group name="id_credito">
+		<groupExpression><![CDATA[$F{id_credito}]]></groupExpression>
+	</group>
+	<group name="id_cliente">
+		<groupExpression><![CDATA[$F{id_cliente}]]></groupExpression>
+	</group>
+	<group name="montante_solicitado">
+		<groupExpression><![CDATA[$F{montante_solicitado}]]></groupExpression>
+	</group>
+	<group name="montante_sugerido">
+		<groupExpression><![CDATA[$F{montante_sugerido}]]></groupExpression>
+	</group>
+	<group name="prestacao_solicitada">
+		<groupExpression><![CDATA[$F{prestacao_solicitada}]]></groupExpression>
+	</group>
+	<group name="prestacao_sugerida">
+		<groupExpression><![CDATA[$F{prestacao_sugerida}]]></groupExpression>
+	</group>
+	<group name="frequencia_sugerida">
+		<groupExpression><![CDATA[$F{frequencia_sugerida}]]></groupExpression>
+	</group>
+	<group name="frequencia_solicitada">
+		<groupExpression><![CDATA[$F{frequencia_solicitada}]]></groupExpression>
+	</group>
+	<group name="prazo_de_pagamento">
+		<groupExpression><![CDATA[$F{prazo_de_pagamento}]]></groupExpression>
+	</group>
+	<group name="grau_de_financiamento">
+		<groupExpression><![CDATA[$F{grau_de_financiamento}]]></groupExpression>
+	</group>
+	<group name="servicos_da_divida">
+		<groupExpression><![CDATA[$F{servicos_da_divida}]]></groupExpression>
+	</group>
+	<group name="data_do_pagamento">
+		<groupExpression><![CDATA[$F{data_do_pagamento}]]></groupExpression>
+	</group>
+	<group name="decisao">
+		<groupExpression><![CDATA[$F{decisao}]]></groupExpression>
+	</group>
+	<group name="tipo_de_credito">
+		<groupExpression><![CDATA[$F{tipo_de_credito}]]></groupExpression>
+	</group>
+	<group name="bens_tangiveis">
+		<groupExpression><![CDATA[$F{bens_tangiveis}]]></groupExpression>
+	</group>
+	<group name="bens_integiveis">
+		<groupExpression><![CDATA[$F{bens_integiveis}]]></groupExpression>
+	</group>
+	<group name="proposta_destino">
+		<groupExpression><![CDATA[$F{proposta_destino}]]></groupExpression>
+	</group>
+	<group name="prazo_frequencia">
+		<groupExpression><![CDATA[$F{prazo_frequencia}]]></groupExpression>
+	</group>
+	<group name="prestacao">
+		<groupExpression><![CDATA[$F{prestacao}]]></groupExpression>
+	</group>
+	<group name="montante_aprovado">
+		<groupExpression><![CDATA[$F{montante_aprovado}]]></groupExpression>
+	</group>
+	<group name="taxa_de_juro">
+		<groupExpression><![CDATA[$F{taxa_de_juro}]]></groupExpression>
+	</group>
+	<group name="valor_total">
+		<groupExpression><![CDATA[$F{valor_total}]]></groupExpression>
+	</group>
+	<group name="Data">
+		<groupExpression><![CDATA[$F{Data}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="61" splitType="Stretch">
+			<staticText>
+				<reportElement x="260" y="20" width="100" height="20" uuid="9fa4748f-03b3-4dda-9af8-03c4860c3acc"/>
+				<text><![CDATA[Relatorio]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="57" splitType="Stretch">
+			<staticText>
+				<reportElement x="240" y="20" width="100" height="20" uuid="07081d49-65ea-4ada-8ce6-2ec7e5e0020f"/>
+				<text><![CDATA[Testando relatorio]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="25" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="4" width="100" height="15" uuid="b16ee561-d497-4df1-afcf-ba5f7afe850e"/>
+				<text><![CDATA[ID credito]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="230" y="3" width="100" height="17" uuid="1c5ec381-6d16-49af-9f1c-d04d66511918"/>
+				<text><![CDATA[Valor total]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="29" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="5" width="86" height="15" uuid="672f8ff7-95af-4eff-823f-ca81ecb496ed"/>
+				<textFieldExpression><![CDATA[$F{id_credito}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="220" y="5" width="100" height="15" uuid="5ca511ce-3d3f-4371-94cc-29f2f8be88b3"/>
+				<textFieldExpression><![CDATA[$F{valor_total}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
